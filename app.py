@@ -43,5 +43,5 @@ def script():
     return send_from_directory('static', 'script.js', mimetype='application/javascript')
 
 
-app.run(host='0.0.0.0', port=443, debug=True)
+app.run(host='0.0.0.0', port=80, debug=True)
 
